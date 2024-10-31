@@ -1,10 +1,24 @@
 ! Title: mylist-temp
-! Version: 1.280
+! Version: 1.2801
 ! Description: Yes it is
 
 
 
-! Add rules
+@@||dcimg*.dcinside.co.kr^$stealth
+babechat.ai##.fixed.pointer-events-none:style(z-index:1!important; opacity:0.85!important;)
+babechat.ai##.justify-end.fixed:style(pointer-events:none!important;)
+babechat.ai##.rounded-full.animate-fadeInUp.font-medium.whitespace-nowrap.justify-center.items-center.inline-flex:style(pointer-events:auto!important;)
+babechat.ai#$#.sm\:min-h-56.w-full.min-h-48 {pointer-events:none!important; min-height:10px!important; height:90px!important;}
+dcinside.com#@#.trend-rank
 
 
-! Remove rules
+
+
+! for only android
+@@||google.*/search$stealth=useragent
+@@$stealth=useragent,domain=www.youtube.com
+@@=pc$stealth=useragent
+@@PCmode$stealth=useragent
+
+! Macro
+! fmkorea.com#%#window.addEventListener('load',function(){var e=0,t=setInterval(function(){var n=document.querySelector('.fa-ellipsis-h.fa');n?(clearInterval(t),n.click(),setTimeout(function(){var t=document.querySelector('.fa-eraser.fa');t&&t.click()},100)):5===++e&&clearInterval(t)},100)});
