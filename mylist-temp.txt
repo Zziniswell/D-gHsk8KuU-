@@ -1,15 +1,24 @@
 ! Title: mylist-temp
-! Version: 1.2801
+! Version: 1.2802
 ! Description: Yes it is
 
 
 
+@@11st.co$stealth=dpi
+@@$stealth=useragent,domain=mt.tmoney.co.kr
 @@||dcimg*.dcinside.co.kr^$stealth
+[$domain=/^lover\d+.net/]#%#//scriptlet('abort-current-inline-script', 'document.write')
 babechat.ai##.fixed.pointer-events-none:style(z-index:1!important; opacity:0.85!important;)
 babechat.ai##.justify-end.fixed:style(pointer-events:none!important;)
 babechat.ai##.rounded-full.animate-fadeInUp.font-medium.whitespace-nowrap.justify-center.items-center.inline-flex:style(pointer-events:auto!important;)
 babechat.ai#$#.sm\:min-h-56.w-full.min-h-48 {pointer-events:none!important; min-height:10px!important; height:90px!important;}
 dcinside.com#@#.trend-rank
+fmkorea.com##.h1:style(opacity:0.3!important)
+kinolights.com#@#.modal-bg
+kinolights.com#@#.modal-layer
+m.11st.co.kr###adBannerArea
+mediatoday.co.kr##.articleView-hw-floating
+||heartyquit.com^$all
 
 
 
