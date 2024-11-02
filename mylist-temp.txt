@@ -1,24 +1,29 @@
 ! Title: mylist-temp
-! Version: 1.2802
+! Version: 1.2803
 ! Description: Yes it is
 
 
 
 @@11st.co$stealth=dpi
+@@$stealth=1p-cookie,domain=steampowered.com
 @@$stealth=useragent,domain=mt.tmoney.co.kr
 @@||dcimg*.dcinside.co.kr^$stealth
-[$domain=/^lover\d+.net/]#%#//scriptlet('abort-current-inline-script', 'document.write')
+[$domain=/^lover\d+.net/]#@%#//scriptlet('abort-current-inline-script', 'document.write')
 babechat.ai##.fixed.pointer-events-none:style(z-index:1!important; opacity:0.85!important;)
 babechat.ai##.justify-end.fixed:style(pointer-events:none!important;)
 babechat.ai##.rounded-full.animate-fadeInUp.font-medium.whitespace-nowrap.justify-center.items-center.inline-flex:style(pointer-events:auto!important;)
 babechat.ai#$#.sm\:min-h-56.w-full.min-h-48 {pointer-events:none!important; min-height:10px!important; height:90px!important;}
+biz.chosun.com##.box--bg-grey-10.flex--align-items-center.flex--justify-center.flex
 dcinside.com#@#.trend-rank
 fmkorea.com##.h1:style(opacity:0.3!important)
 kinolights.com#@#.modal-bg
 kinolights.com#@#.modal-layer
 m.11st.co.kr###adBannerArea
+m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|위잉위잉|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표/)
+m.dcinside.com#@#[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|위잉위잉|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|tok|투.표/)
 mediatoday.co.kr##.articleView-hw-floating
 ||heartyquit.com^$all
+||www.internet.apps.samsung.com/quickaccess/config/background.json^$all,app=com.sec.android.app.sbrowser.beta
 
 
 
