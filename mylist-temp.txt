@@ -1,12 +1,14 @@
 ! Title: mylist-temp
-! Version: 1.280+1
-! Description: Yes it is
+! Version: 1.280+2
+! Description: sex
 
 
 
 ! @@11st.co$stealth=dpi
-@@$stealth=dpi,app=com.elevenst
-@@toki*.*/$stealth=1p-cookie,cookie=PHPSESSID
+@@toki*.*^$stealth=1p-cookie,cookie
+m.fmkorea.com#@#.h1:style(opacity:0.3!important)
+m.fmkorea.com##.h1:style(opacity:0.1!important)
+skyedaily.com###quickmenu2
 
 
 
