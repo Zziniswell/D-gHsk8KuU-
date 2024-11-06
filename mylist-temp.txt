@@ -1,11 +1,10 @@
 ! Title: mylist-temp
-! Version: 1.280+3
+! Version: 1.282+1
 ! Description: yas
 
 
-
 @@toki*.*^$stealth=1p-cookie,cookie
-
-
-! Macro
-! fmkorea.com#%#window.addEventListener('load',function(){var e=0,t=setInterval(function(){var n=document.querySelector('.fa-ellipsis-h.fa');n?(clearInterval(t),n.click(),setTimeout(function(){var t=document.querySelector('.fa-eraser.fa');t&&t.click()},100)):5===++e&&clearInterval(t)},100)});
+kmib.co.kr##.mad_wrap
+m.dcinside.com###notice_list > li:nth-of-type(1)
+namu.wiki,~en.namu.wiki,~board.namu.wiki##li:has(time):not(*:has([href*='/raw/'])):upward(2)
+namu.wiki,~en.namu.wiki,~board.namu.wiki##li:has(time):upward(2)
