@@ -1,6 +1,17 @@
 ! Title: mylist-temp
-! Version: 1.283+1
+! Version: 1.283+2
 ! Description: yas
 
 
-! WTF
+! 수정 완료
+hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|zenmai kourogi/)
+
+
+! 추가
+||trackers.handel-c.net^
+
+[$domain=/^tvroom\d+.org/]###mq-notice
+
+tvroom*.org###mq-notice
+
+[$url=*fork.org/*/scripts/]#%#document.addEventListener('DOMContentLoaded',()=>document.querySelectorAll('img[src^="https://greasyfork.s3.us-east-2.amazonaws.com/"]').forEach(img=>{const a=img.closest('a');a&&a.href&&(img.src=a.href)}));
