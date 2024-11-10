@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.283+2
+! Version: 1.283+3
 ! Description: yas
 
 
@@ -8,8 +8,13 @@ hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|�
 
 
 ! 추가
+m.viva100.com##.banner_box
+m.viva100.com##.bottom_banner_box
+web.joongna.com##reach-portal
 ||trackers.handel-c.net^
+||ultimate-enable-right-click.github.io/index.js
 
+@@$extension="PreventPageVisibility",domain=namu.wiki
 [$domain=/^tvroom\d+.org/]###mq-notice
 
 tvroom*.org###mq-notice
