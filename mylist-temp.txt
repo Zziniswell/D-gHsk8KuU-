@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.283+4
+! Version: 1.283+5
 ! Description: yas
 
 
@@ -14,7 +14,7 @@ web.joongna.com##reach-portal
 ||ultimate-enable-right-click.github.io/index.js
 
 
-@@$extension="PreventPageVisibility",domain=namu.wiki
+@@$extension="PreventPageVisibility",domain=namu.wiki|dcinside.com
 [$domain=/^tvroom\d+.org/]###mq-notice
 @@$extension="Text To link",domain=gist.github.com|telegra.ph
 
