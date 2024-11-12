@@ -1,22 +1,28 @@
 ! Title: mylist-temp
-! Version: 1.283+3
+! Version: 1.283+4
 ! Description: yas
 
 
-! 수정 완료
+##[id^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+@@||securepubads.g.doubleclick.net^$domain=today.line.me
+etoland.co.kr##body:style(padding-bottom:0px!important;)
 hasha.in##.bg-hasha-1-l.rounded.text.p-5 > div:has-text(/스캇|충간|수간|수인|zenmai kourogi/)
-
-
-! 추가
-m.viva100.com##.banner_box
-m.viva100.com##.bottom_banner_box
+m.viva100.com##[class$='banner_box']
 web.joongna.com##reach-portal
+||static.m.sooplive.co.kr/js/app/lib/afreeca.link.js$script,domain=play.sooplive.co.kr,badfilter
 ||trackers.handel-c.net^
 ||ultimate-enable-right-click.github.io/index.js
 
+
 @@$extension="PreventPageVisibility",domain=namu.wiki
 [$domain=/^tvroom\d+.org/]###mq-notice
+@@$extension="Text To link",domain=gist.github.com|telegra.ph
 
 tvroom*.org###mq-notice
 
 [$url=*fork.org/*/scripts/]#%#document.addEventListener('DOMContentLoaded',()=>document.querySelectorAll('img[src^="https://greasyfork.s3.us-east-2.amazonaws.com/"]').forEach(img=>{const a=img.closest('a');a&&a.href&&(img.src=a.href)}));
+
+m.dcinside.*#$##topmenu_depthbox {background-color:rgba(75, 102, 66, 1)!important;}
+
+
+! 신라면세점, playpass
