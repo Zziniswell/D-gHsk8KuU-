@@ -1,6 +1,15 @@
 ! Title: mylist-temp
-! Version: 1.284+0
+! Version: 1.284+1
 ! Description: yas
+
+
+aagag.*###content > .mirror_help:style(margin-top:-99px!important;)
+aagag.*###content:style(margin-top:-74px!important;)
+aagag.*###footer:style(margin-top:-74px!important;)
+aagag.*###tag_select:style(margin-top:-74px!important;)
+
+m.fmkorea.*#@$#.xe_content > span {color:rgba(165,42,42,0.9)!important;}
+m.fmkorea.*#$#.xe_content > span:has-text(제휴 링크) {color:rgba(165,42,42,0.9)!important;}
 
 
 ! 신라면세점, playpass
