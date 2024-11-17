@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.284+2
+! Version: 1.284+3
 ! Description: yas
 
 
@@ -17,10 +17,16 @@ thewindowsclub.blog##.position-sticky
 velog.io##[alt="post-custom-banner"]
 ||apps.m.sooplive.co.kr/universal/a/andinstall^$all
 
+@@$extension="상단/하단으로 스크롤",domain=namu.wiki
 
+
+
+@@$stealth=1p-cookie,domain=naver.com|github.com|google.com|arca.live|epicgames.com|steampowered.com|deepl.com
 a-ha.io##body,html:style(overflow:auto!important)
 m.fmkorea.*#@$#.xe_content > span {color:rgba(165,42,42,0.9)!important;}
 m.fmkorea.*#$#.xe_content > span:has-text(제휴 링크) {color:rgba(165,42,42,0.9)!important;}
+namu.wiki,~en.namu.wiki,~board.namu.wiki##div > [id]:only-child:upward(1)
+dcinside.com###spoiler
 
 
 ! 신라면세점, playpass
