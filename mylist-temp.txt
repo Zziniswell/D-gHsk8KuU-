@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.284+5
+! Version: 1.284+6
 ! Description: yas
 
 
@@ -21,7 +21,8 @@ m.fmkorea.*#@$#.xe_content > span {color:rgba(165,42,42,0.9)!important;}
 m.instiz.net#$#.grouping_menu {margin-bottom:-200px!important;}
 m.news.nate.com##.viewAppEvent
 m.news.nate.com##nate-reward-view
-namu.*,~en.namu.wiki,~board.namu.wiki##[href]:has([src$='.png']):upward(4):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important;)
+namu.*,~en.namu.wiki,~board.namu.wiki##[href]:has([src$='.png']):upward(4):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important; pointer-events:none!important;)
+namu.wiki,~en.namu.wiki,~board.namu.wiki#@#[href]:has([src$='.png']):upward(3):not(*:has([id])):has-text(.):remove()
 thewindowsclub.blog##.position-sticky
 thewindowsclub.blog##div.main
 velog.io##[alt="post-custom-banner"]
