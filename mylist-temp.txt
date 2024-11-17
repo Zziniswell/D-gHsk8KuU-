@@ -1,10 +1,13 @@
 ! Title: mylist-temp
-! Version: 1.284+4
+! Version: 1.284+5
 ! Description: yas
 
 
 @@$extension="상단/하단으로 스크롤",domain=namu.wiki
 @@$stealth=1p-cookie,domain=naver.com|github.com|google.com|arca.live|epicgames.com|steampowered.com|deepl.com
+##[class^="div-gpt-ad"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"])
+##div[id^="div-gpt-"]:not([style^="width: 1px; height: 1px; position: absolute; left: -10000px; top: -"]):not([style="pointer-events: none; height: 1px; width: 0px; opacity: 0; visibility: hidden; position: fixed; bottom: 0px;"])
+#@#[src*="/AD/"]
 a-ha.io##body,html:style(overflow:auto!important)
 a-ha.io##div:has([src*='app-install-suggestion'])
 aagag.*###content > .mirror_help:style(margin-top:-99px!important;)
@@ -18,7 +21,7 @@ m.fmkorea.*#@$#.xe_content > span {color:rgba(165,42,42,0.9)!important;}
 m.instiz.net#$#.grouping_menu {margin-bottom:-200px!important;}
 m.news.nate.com##.viewAppEvent
 m.news.nate.com##nate-reward-view
-namu.wiki,~en.namu.wiki,~board.namu.wiki##div > [id]:only-child:upward(1)
+namu.*,~en.namu.wiki,~board.namu.wiki##[href]:has([src$='.png']):upward(4):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important;)
 thewindowsclub.blog##.position-sticky
 thewindowsclub.blog##div.main
 velog.io##[alt="post-custom-banner"]
