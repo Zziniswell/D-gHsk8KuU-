@@ -1,9 +1,12 @@
 ! Title: mylist-temp
-! Version: 1.286+1
+! Version: 1.286+2
 ! Description: yas
 
 
+@@write^$extension="PreventPageVisibility"
 anilife.app#@##disqus_thread
+news.jtbc.co.kr##.button-go2top
+news.jtbc.co.kr##.MuiBox-root > .MuiTypography-body-md.MuiTypography-root:has-text(ADVERTISEMENT):upward(2)
 ppomppu.co.kr#%#(()=>{const d=e=>{if(!e.href||!e.href.includes('s.ppomppu.co.kr'))return;try{const u=new URL(e.href),p=new URLSearchParams(u.search),t=p.get('target');if(!t)return;if(p.get('encode')==='on'){const m=document.createElement('textarea');m.innerHTML=atob(decodeURIComponent(t));e.href=m.innerText}else e.href=t}catch{}};const o=new MutationObserver(m=>{m.forEach(t=>{t.addedNodes.forEach(n=>{n.nodeName==='A'&&d(n);n.getElementsByTagName&&Array.from(n.getElementsByTagName('a')).forEach(d)})})});document.addEventListener('DOMContentLoaded',()=>{Array.from(document.getElementsByTagName('a')).forEach(d);o.observe(document.body,{childList:!0,subtree:!0})})})();
 www.gmarket.co.kr#@#.js-impressionable.image
 www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
