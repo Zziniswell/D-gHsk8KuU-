@@ -1,10 +1,17 @@
 ! Title: mylist-temp
-! Version: 1.287+0
+! Version: 1.287+1
 ! Description: yas
 
 
+gall.dcinside.com##.clear.another_nft
+google.*,google.com,google.co.kr##[id] [href*='udm=36']:has-text(도서)
+m.dcinside.com##.dcnft-view-btm
+namu.wiki,~en.namu.wiki,~board.namu.wiki#@#[href*='/w/']:has(span:empty):upward(3):has(a:has-text(.))
+namu.wiki,~en.namu.wiki,~board.namu.wiki##[href*='/w/']:has(span:empty):upward(3):not(*:has([id])):has(a:has-text(.))
 www.gmarket.co.kr#@#.js-impressionable.image
 www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
+||firebaselogging-pa.googleapis.com^$important
+||firebaselogging.googleapis.com^$important
 
 
 ! 신라면세점, playpass
