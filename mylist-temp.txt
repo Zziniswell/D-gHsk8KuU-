@@ -1,17 +1,19 @@
 ! Title: mylist-temp
-! Version: 1.287+2
+! Version: 1.287+3
 ! Description: yas
 
 
+footboom1.com##.target-payload.bn-slot--top.bn
 gall.dcinside.com##.clear.another_nft
 google.*,google.com,google.co.kr##[id] [href*='udm=36']:has-text(도서)
+ichannela.com##div > .onair_300_m
 klauncher.kr##.carousel-inner:style(margin-bottom:-100px!important;)
 lamu.city###thema_wrapper > div:nth-of-type(1)
 m.dcinside.com##.dcnft-view-btm
 mbiz.heraldcorp.com##[id^='svcad_']
-namu.wiki,~en.namu.wiki,~board.namu.wiki#@#[href*='/w/']:has(span:empty):upward(3):has(a:has-text(.))
-namu.wiki,~en.namu.wiki,~board.namu.wiki##[href*='/w/']:has(span:empty):upward(3):not(*:has([id])):has(a:has-text(.))
+momonara.com###primary > ins.adsbygoogle
 tcafe2a.com##.at-header > div:nth-of-type(1)
+thewordcracker.com##.sense-1
 wetransfer.com##.AppInstallBanner
 www.gmarket.co.kr#@#.js-impressionable.image
 www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
@@ -22,8 +24,11 @@ www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
 $removeparam=ref,domain=mbiz.heraldcorp.com|bunjang.co.kr|sportsseoul.com|mt.co.kr
 lamu.city#%#//scriptlet('set-constant', 'adblockcheck', '1')
 news.*^$removeparam=ref
+namu.wiki,~en.namu.wiki,~board.namu.wiki#@#[href*='/w/']:has(span:empty):upward(3):has(a:has-text(.))
+namu.wiki,~en.namu.wiki,~board.namu.wiki##[href*='/w/']:has(span:empty):upward(3):not(*:has([id])):has(a:has-text(.))
 @@$stealth=1p-cookie,domain=naver.com|github.com|google.com|arca.live|epicgames.com|steampowered.com|deepl.com|vivaldi.net|tcafe2a.com|lamu.city
 
 
 ! 신라면세점, playpass
+@@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
