@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.287+3
+! Version: 1.287+4
 ! Description: yas
 
 
@@ -12,6 +12,10 @@ lamu.city###thema_wrapper > div:nth-of-type(1)
 m.dcinside.com##.dcnft-view-btm
 mbiz.heraldcorp.com##[id^='svcad_']
 momonara.com###primary > ins.adsbygoogle
+namu.*,~en.namu.wiki,~board.namu.wiki##[href]:has([src$='.png']):upward(3):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important; pointer-events:none!important;)
+namu.*,~en.namu.wiki,~board.namu.wiki#@#[href]:has([src$='.png']):upward(4):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important; pointer-events:none!important;)
+namu.*,~en.namu.wiki,~board.namu.wiki#@#a:only-child img[src$='.png']:upward(5)
+pay.naver.com##[id^='RepurchaseAlarm_article__']
 tcafe2a.com##.at-header > div:nth-of-type(1)
 thewordcracker.com##.sense-1
 wetransfer.com##.AppInstallBanner
