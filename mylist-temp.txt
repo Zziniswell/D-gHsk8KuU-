@@ -1,49 +1,6 @@
 ! Title: mylist-temp
-! Version: 1.287+6
+! Version: 1.288+0
 ! Description: yas
-
-
-#@#[href*="//media.naver.com/channel/promotion"]:upward(1)
-#@#[src*="/ads"]
-footboom1.com##.target-payload.bn-slot--top.bn
-forbes.com###brandvoice-inline-0-wrapper
-forbes.com##.zephr-backdrop.zephr-fin-free-report-backdrop
-forbes.com##.zephr-generic-modal.zephr-fin-free-report-modal
-gall.dcinside.com##.clear.another_nft
-genshin.gamedot.org##[id][style*="z-index: 255;"]
-google.*,google.com,google.co.kr##[id] [href*='udm=36']:has-text(도서)
-hub.weirdhost.xyz#%#//scriptlet('set-constant', 'checkAdblock', 'null')
-ichannela.com##div > .onair_300_m
-lamu.city###thema_wrapper > div:nth-of-type(1)
-m.dcinside.com##.dcnft-view-btm
-m.edaily.co.kr###ran_NewsLetter
-m.soundcloud.com###onetrust-consent-sdk
-mbiz.heraldcorp.com##[id^='svcad_']
-momonara.com###primary > ins.adsbygoogle
-namu.*,~en.namu.wiki,~board.namu.wiki##[href]:has([src$='.png']):upward(3):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important; pointer-events:none!important;)
-namu.*,~en.namu.wiki,~board.namu.wiki#@#[href]:has([src$='.png']):upward(4):not(*:has([id])):has-text(.):style(opacity:0!important; margin-top:-120px!important; pointer-events:none!important;)
-namu.wiki,~en.namu.wiki,~board.namu.wiki#@#a:only-child img[src$='.png']:upward(5)
-pay.naver.com##[class^='RepurchaseAlarm_article__']
-tcafe2a.com##.at-header > div:nth-of-type(1)
-thewordcracker.com##.sense-1
-wetransfer.com##.AppInstallBanner
-wetransfer.com##.fides-consent-wall__container
-wetransfer.com##.mobile-web-frame-container
-www.gmarket.co.kr#@#.js-impressionable.image
-www.gmarket.co.kr#@#.section__main-inner > .box__promotion .box__item > *
-||firebaselogging-pa.googleapis.com^$important
-||firebaselogging.googleapis.com^$important
-
-
-$removeparam=ref,domain=mbiz.heraldcorp.com|bunjang.co.kr|sportsseoul.com|mt.co.kr
-[$domain=/^tvroom\d+.org/]##[id^='modal-anc-']
-lamu.city#%#//scriptlet('set-constant', 'adblockcheck', '1')
-news.*^$removeparam=ref
-namu.wiki,~en.namu.wiki,~board.namu.wiki#@#[href*='/w/']:has(span:empty):upward(3):has(a:has-text(.))
-namu.wiki,~en.namu.wiki,~board.namu.wiki##[href*='/w/']:has(span:empty):upward(3):not(*:has([id])):has(a:has-text(.))
-@@$stealth,removeparam,domain=ofw.adison.co|abr.ge|airbridge.io
-@@$stealth=1p-cookie,domain=naver.com|github.com|google.com|arca.live|epicgames.com|steampowered.com|deepl.com|vivaldi.net|tcafe2a.com|kakao.com|daum.net|babechat.ai
-tvroom*.org##[id^='modal-anc-']
 
 
 ! 신라면세점, playpass
