@@ -1,10 +1,13 @@
 ! Title: mylist-temp
-! Version: 1.288+1
+! Version: 1.288+2
 ! Description: yas
 
 
 @@||blog.kakaocdn.net/dn/$domain=heye.kr
+celuvmedia.com##table
+celuvmedia.com##td
 heye.kr##.banner-wrap
+m.celuvmedia.com###container > div
 m.monthly.chosun.com##.am
 page.kakao.com##.absolute:style(pointer-events:auto!important;)
 tumblr.com##[class]:has(> button:has-text(가입)):upward(1)
@@ -12,6 +15,10 @@ reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-lo
 
 
 @@||youtube.com^$extension="Embed Me!"|"상단/하단으로 스크롤"
+
+
+namu.wiki,novelpia.com#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0});let o,n,r=!1,a=null;document.addEventListener('mousedown',function(e){('a'===e.target.tagName.toLowerCase()||'button'===e.target.tagName.toLowerCase())&&(o=e.clientX,n=e.clientY,r=!0,a=e.target)}),document.addEventListener('mousemove',function(e){if(r){const t=Math.sqrt(Math.pow(e.clientX-o,2)+Math.pow(e.clientY-n,2));t>5&&a&&(navigator.clipboard.writeText(a.textContent.trim()).then(()=>{console.log('Text copied to clipboard:',a.textContent.trim())}).catch(e=>{console.error('Could not copy text: ',e)}),r=!1,a=null)}}),document.addEventListener('mouseup',function(){r=!1,a=null}),document.addEventListener('mouseleave',function(){r=!1,a=null}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
+#%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0});let o,n,r=!1,a=null;document.addEventListener('mousedown',function(e){('a'===e.target.tagName.toLowerCase()||'button'===e.target.tagName.toLowerCase())&&(o=e.clientX,n=e.clientY,r=!0,a=e.target)}),document.addEventListener('mousemove',function(e){if(r){const t=Math.sqrt(Math.pow(e.clientX-o,2)+Math.pow(e.clientY-n,2));t>5&&a&&(navigator.clipboard.writeText(a.textContent.trim()).then(()=>{console.log('Text copied to clipboard:',a.textContent.trim())}).catch(e=>{console.error('Could not copy text: ',e)}),r=!1,a=null)}}),document.addEventListener('mouseup',function(){r=!1,a=null}),document.addEventListener('mouseleave',function(){r=!1,a=null}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
 
 
 ! 신라면세점, playpass
