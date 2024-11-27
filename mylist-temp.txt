@@ -1,6 +1,17 @@
 ! Title: mylist-temp
-! Version: 1.288+0
+! Version: 1.288+1
 ! Description: yas
+
+
+@@||blog.kakaocdn.net/dn/$domain=heye.kr
+heye.kr##.banner-wrap
+m.monthly.chosun.com##.am
+page.kakao.com##.absolute:style(pointer-events:auto!important;)
+tumblr.com##[class]:has(> button:has-text(가입)):upward(1)
+reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader
+
+
+@@||youtube.com^$extension="Embed Me!"|"상단/하단으로 스크롤"
 
 
 ! 신라면세점, playpass
