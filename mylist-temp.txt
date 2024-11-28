@@ -1,35 +1,39 @@
 ! Title: mylist-temp
-! Version: 1.288+3
+! Version: 1.288+4
 ! Description: yas
 
 
-@@||blog.kakaocdn.net/dn/$domain=heye.kr
+@@||blog.kakaocdn.net/$domain=heye.kr
 arca.live##.blur:style(filter:none!important;)
 arca.live##.d-lg-none.topbar-area
-celuvmedia.com##table
-celuvmedia.com##td
+celuvmedia.com##td:not(td:has(img))
 heye.kr##.banner-wrap
-m.celuvmedia.com###container > div
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오/)
 m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망/)
-m.monthly.chosun.com##.am
 m-sooriya.tistory.com##[class$='-div']
 m-sooriya.tistory.com##[id^='m_ads_']
 m-sooriya.tistory.com##[src^="https://soz.kr/"]
+m.monthly.chosun.com##.am
+m.ohmynews.com###Banner10Man
 monthly.chosun.com##.box_mn
+news.jtbc.co.kr#@#.MuiBox-root > .MuiTypography-body-md.MuiTypography-root:has-text(ADVERTISEMENT):upward(2)
+news.jtbc.co.kr##.MuiTypography-body-md.MuiTypography-root:has-text(/^ADVERTISEMENT/):upward(2):not(*:has(a))
 page.kakao.com##.absolute:style(pointer-events:auto!important;)
 tumblr.com##[class]:has(> button:has-text(가입)):upward(1)
 reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader
 
 
 @@$generichide,domain=romantech.net
+tumblr.com#%#//scriptlet('set-cookie-reload', 'logged_in', '1')
 
 
+@@||remotedesktop.google.com^$stealth=webrtc
 @@||youtube.com^$extension="Embed Me!"|"상단/하단으로 스크롤"
 
 
-namu.wiki,novelpia.com,suto.co.kr#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
 #%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
+github.com,namu.wiki,novelpia.com,suto.co.kr#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
+[$url=manatoki*.net|newtoki*.com|booktoki*.com]#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
 
 
 ! 신라면세점, playpass
