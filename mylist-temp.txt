@@ -1,31 +1,37 @@
 ! Title: mylist-temp
-! Version: 1.288+5
+! Version: 1.288+6
 ! Description: yas
 
 
 ! test
 ##[id^='google_ads_iframe_']:upward(1)
+@@toki*.*/$stealth=useragent,badfilter
 !
-86.gigafile.nu###main_panel
-86.gigafile.nu###sub_contents_youtube
-86.gigafile.nu##.gfmov-wrapper
 @@||blog.kakaocdn.net/$domain=heye.kr
-a-ha.io##div[class^='css-']:has(> div > svg:only-child):upward(1)
+a-ha.io##div[height='263']:upward(1)
 arca.live##.blur:style(filter:none!important;)
 arca.live##.d-lg-none.topbar-area
 celuvmedia.com##td:not(td:has(img))
 chosun.com##[id^='article_ad_mobile_']:upward(1)
+gigafile.nu###main_panel
+gigafile.nu###sub_contents_youtube
+gigafile.nu##.gfmov-wrapper
 heye.kr##.banner-wrap
-m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오/)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망/)
+hub.zum.com#@#div > div:has([id])
 m-sooriya.tistory.com##[class$='-div']
 m-sooriya.tistory.com##[id^='m_ads_']
 m-sooriya.tistory.com##[src^="https://soz.kr/"]
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망/)
+m.hub.zum.com##[class^='css-']:has([id]:only-child)
+m.hub.zum.com##[id] > [class^='css-']:empty
 m.monthly.chosun.com##.am
 m.ohmynews.com###Banner10Man
 monthly.chosun.com##.box_mn
 news.jtbc.co.kr#@#.MuiBox-root > .MuiTypography-body-md.MuiTypography-root:has-text(ADVERTISEMENT):upward(2)
 news.jtbc.co.kr##.MuiTypography-body-md.MuiTypography-root:has-text(/^ADVERTISEMENT/):upward(2):not(*:has(a))
+mnews.sbs.co.kr#@#div[id$="_ad"]
+mnews.sbs.co.kr##.smrbanner
 page.kakao.com##.absolute:style(pointer-events:auto!important;)
 tumblr.com##[class]:has(> button:has-text(가입)):upward(1)
 reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader
@@ -35,7 +41,6 @@ reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-lo
 tumblr.com#%#//scriptlet('set-cookie-reload', 'logged_in', '1')
 
 
-@@toki*.*/$stealth=useragent,badfilter
 @@||remotedesktop.google.com^$stealth=webrtc
 @@||youtube.com^$extension="Embed Me!"|"상단/하단으로 스크롤"
 
