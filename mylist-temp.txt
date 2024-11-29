@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.288+7
+! Version: 1.288+8
 ! Description: yas
 
 
@@ -43,12 +43,16 @@ reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-lo
 
 
 @@$generichide,domain=romantech.net
+babechat.*###tag:has-text(/남자|BL|중년|뚱남|게이[^트]/):upward(2):not(*:has-text(/보추|여장|낭자애|오토코노코|펨보이|CD/))
 hasha.in#@#div[style^="min-height:"][class^="bg-hasha-"] > div[style] + .max-w-full
 tumblr.com#%#//scriptlet('set-cookie-reload', 'logged_in', '1')
 
 
 @@||remotedesktop.google.com^$stealth=webrtc
 @@||youtube.com^$extension="Embed Me!"|"상단/하단으로 스크롤"
+
+
+babechat*.ai###tag:has-text(/BL|중년|뚱남|게이[^트]|[^온]남자|[^장]남자/):upward(2)
 
 
 #%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
