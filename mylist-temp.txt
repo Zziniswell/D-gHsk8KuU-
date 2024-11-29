@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.288+8
+! Version: 1.288+9
 ! Description: yas
 
 
@@ -8,6 +8,7 @@
 @@toki*.*/$stealth=useragent,badfilter
 !
 @@||blog.kakaocdn.net/$domain=heye.kr
+@@||ssl.pstatic.net/static/www/m-new/uit/img/$domain=m.naver.com
 a-ha.io##div[height='263']:upward(1)
 arca.live##.blur:style(filter:none!important;)
 arca.live##.d-lg-none.topbar-area
@@ -20,6 +21,9 @@ gigafile.nu###sub_contents_youtube
 gigafile.nu##.gfmov-wrapper
 heye.kr##.banner-wrap
 hub.zum.com#@#div > div:has([id])
+lotteon.com##.moduleContainerType1.banner-image
+lotteon.com##.moduleInnerWrap:has-text(고객님을 위한 상품)
+lotteon.com##.orderCompletedBannerArea
 m-sooriya.tistory.com##[class$='-div']
 m-sooriya.tistory.com##[id^='m_ads_']
 m-sooriya.tistory.com##[src^="https://soz.kr/"]
@@ -40,6 +44,7 @@ page.kakao.com##.absolute:style(pointer-events:auto!important;)
 tumblr.com##[class]:has(> button:has-text(가입)):upward(1)
 reddit.com##.pt-\[var\(--page-y-padding\)\].overflow-visible > shreddit-async-loader
 ||m.site.naver.com^
+||new-version.download^$all
 
 
 @@$generichide,domain=romantech.net
