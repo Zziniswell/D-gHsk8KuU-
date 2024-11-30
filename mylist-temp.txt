@@ -1,9 +1,17 @@
 ! Title: mylist-temp
-! Version: 1.289+0
+! Version: 1.289+1
 ! Description: yas
 
 
 lotteon.com###modals-container:has-text(오늘 하루 보지 않기)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망|site.naver.com|link24/)
+nate.com##nate-reward-view
+ntnt.tv##.wixui-column-strip__column:has([style*='width: 152px;'])
+[$url=xhamster*.com]##div[class*='cookiesAnnounce-']
+@@go.kr^$extension,badfilter
+@@gov.kr^$extension,badfilter
+@@||telegra.ph^$extension="Text To link"
+#%#(()=>{'use strict';if(document instanceof XMLDocument)return;const assign=Object.assign;Object.assign=function(...args){if(args.length===2&&typeof args[0]==='function'&&typeof args[1]==='object'&&args[1]!==null&&typeof args[1].isDevToolOpened==='function'&&typeof args[1].version==='string'&&typeof args[1].isRunning==='boolean'&&typeof args[1].isSuspend==='boolean'){Object.assign=assign;const result=Object.assign(...args);console.log('Detected disable-devtool component',result);return Object.assign(function(){console.trace('disable-devtool called here');},args[1])}return assign.call(this,...args);}})();
 
 
 ! 신라면세점, playpass
