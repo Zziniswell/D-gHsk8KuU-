@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.289+1
+! Version: 1.289+2
 ! Description: yas
 
 
@@ -12,6 +12,13 @@ ntnt.tv##.wixui-column-strip__column:has([style*='width: 152px;'])
 @@gov.kr^$extension,badfilter
 @@||telegra.ph^$extension="Text To link"
 #%#(()=>{'use strict';if(document instanceof XMLDocument)return;const assign=Object.assign;Object.assign=function(...args){if(args.length===2&&typeof args[0]==='function'&&typeof args[1]==='object'&&args[1]!==null&&typeof args[1].isDevToolOpened==='function'&&typeof args[1].version==='string'&&typeof args[1].isRunning==='boolean'&&typeof args[1].isSuspend==='boolean'){Object.assign=assign;const result=Object.assign(...args);console.log('Detected disable-devtool component',result);return Object.assign(function(){console.trace('disable-devtool called here');},args[1])}return assign.call(this,...args);}})();
+damoang.net##.da-bn-container
+pay.naver.com#@#[class*='tooltip']
+11toon*.com##.mm
+[$url=11toon*.com]##.mm
+damoang.net#@%#window.addEventListener('load',function(){var button=document.getElementById('economy-open-all-links');if(button){button.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var links=document.querySelectorAll('.text-truncate a');links.forEach(function(link){if(link.href){var newTab=document.createElement('a');newTab.href=link.href;newTab.target='_blank';newTab.rel='noopener noreferrer';newTab.style.display='none';document.body.appendChild(newTab);newTab.click();document.body.removeChild(newTab)}});return false},true)}});
+suto.co.kr#%#//scriptlet('remove-attr', 'oncontextmenu')
+
 
 
 ! 신라면세점, playpass
