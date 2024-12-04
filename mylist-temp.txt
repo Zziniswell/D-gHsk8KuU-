@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.289+4
+! Version: 1.289+5
 ! Description: yas
 
 
@@ -29,6 +29,14 @@ torrentsee*.com##div[style^="z-index:999; position:absolute;"]
 [$url=torrentsee*.com]##.adver-list
 [$url=torrentsee*.com]##.mmri15.nplr.col-middle:style(margin-top:-75px!important;)
 [$url=torrentsee*.com]##div[style^="z-index:999; position:absolute;"]
+newtoki.biz,newtoki.one##[class^='banner']
+뉴토끼.site##.wide
+m.health.chosun.com#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
+babechat.ai##.fixed.pointer-events-none:style(z-index:1!important; opacity:0.8!important;)
+babechat.ai#$#.sm\:min-h-56.w-full.min-h-48 {pointer-events:none!important; min-height:10px!important; height:90px!important;}
+reddit.com##.text-neutral-content:style(height: auto !important; max-height: none !important;)
+hitomi.la#$##mobileImages {width:100%!important; max-width:100%!important; height:auto!important;}
+
 
 
 ! 신라면세점, playpass
