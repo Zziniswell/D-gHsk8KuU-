@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.289+6
+! Version: 1.289+7
 ! Description: yas
 
 
@@ -38,6 +38,17 @@ reddit.com##.text-neutral-content:style(height:auto!important; max-height:none!i
 hitomi.la#$##mobileImages {width:100%!important; max-width:100%!important; height:auto!important;}
 [$url=fmkorea.com/freedeal]#@#li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
 [$url=fmkorea.com/hotdeal]#@#li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
+health.chosun.com##.sub_Banner
+@@$stealth=useragent,domain=chosun.com|www.daum.net|www.naver.com|www.youtube.com
+m.ddaily.co.kr##div.h25
+hankyung.com##.article-promotion
+||sakuraherbs*.com^$all
+daedamo.com##.new_top_banner_ad
+/ad.php^$all
+||molln.in^$all
+||rtvi.org^$all
+mlbpark.donga.com#@$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
+mlbpark.donga.*##ul.sub_lists_today.lists:nth-of-type(1) > li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
 
 
 
