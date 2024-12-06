@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.289+7
+! Version: 1.289+8
 ! Description: yas
 
 
@@ -48,7 +48,12 @@ daedamo.com##.new_top_banner_ad
 ||molln.in^$all
 ||rtvi.org^$all
 mlbpark.donga.com#@$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
-mlbpark.donga.*##ul.sub_lists_today.lists:nth-of-type(1) > li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
+mlbpark.donga.*##li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
+mlbpark.donga.com##.left_cont > div[style^="width:"]
+t.hi098123.com#%#//scriptlet('prevent-fetch', 'ep1.adtrafficquality.google')
+@@$generichide,domain=namu.wiki|11st.co.kr|t.hi098123.com
+biz.newdaily.co.kr##.par > .clearfix
+m.hoyolab.com##.guide-download-drawer
 
 
 
