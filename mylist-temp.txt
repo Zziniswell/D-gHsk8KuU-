@@ -1,60 +1,9 @@
 ! Title: mylist-temp
-! Version: 1.289+8
+! Version: 1.290+0
 ! Description: yas
 
 
-lotteon.com###modals-container:has-text(오늘 하루 보지 않기)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망|site.naver.com|link24|광.군|블.프|광,군|블,프|할,인|할.인|x.gd/)
-nate.com##nate-reward-view
-ntnt.tv##.wixui-column-strip__column:has([style*='width: 152px;'])
-[$url=xhamster*.com]##div[class*='cookiesAnnounce-']
-@@go.kr^$extension,badfilter
-@@gov.kr^$extension,badfilter
-@@||telegra.ph^$extension="Text To link"
-#%#(()=>{'use strict';if(document instanceof XMLDocument)return;const assign=Object.assign;Object.assign=function(...args){if(args.length===2&&typeof args[0]==='function'&&typeof args[1]==='object'&&args[1]!==null&&typeof args[1].isDevToolOpened==='function'&&typeof args[1].version==='string'&&typeof args[1].isRunning==='boolean'&&typeof args[1].isSuspend==='boolean'){Object.assign=assign;const result=Object.assign(...args);console.log('Detected disable-devtool component',result);return Object.assign(function(){console.trace('disable-devtool called here');},args[1])}return assign.call(this,...args);}})();
-damoang.net##.da-bn-container
-pay.naver.com#@#[class*='tooltip']
-11toon*.com##.mm
-[$url=11toon*.com]##.mm
-damoang.net#@%#window.addEventListener('load',function(){var button=document.getElementById('economy-open-all-links');if(button){button.addEventListener('click',function(e){e.preventDefault();e.stopPropagation();var links=document.querySelectorAll('.text-truncate a');links.forEach(function(link){if(link.href){var newTab=document.createElement('a');newTab.href=link.href;newTab.target='_blank';newTab.rel='noopener noreferrer';newTab.style.display='none';document.body.appendChild(newTab);newTab.click();document.body.removeChild(newTab)}});return false},true)}});
-gelbooru.com##.mainBodyPadding:style(margin-bottom:-70px!important;)
-gelbooru.com##.headerAd > center
-m.bobaedream.co.kr##.wrap > div:nth-of-type(1)
-11st.co.kr#@#[id*='Ad']
-buy.m.11st.co.kr##.slideInBottom.modal-bottom.animated.layer_end_event
-gelbooru.com##[style*="dotted #aaaaaa;"]
-torrentsee*.com##.adver-list
-torrentsee*.com##.mmri15.nplr.col-middle:style(margin-top:-75px!important;)
-torrentsee*.com##div[style^="z-index:999; position:absolute;"]
-[$url=torrentsee*.com]##.adver-list
-[$url=torrentsee*.com]##.mmri15.nplr.col-middle:style(margin-top:-75px!important;)
-[$url=torrentsee*.com]##div[style^="z-index:999; position:absolute;"]
-newtoki.biz,newtoki.one##[class^='banner']
-뉴토끼.site##.wide
-m.health.chosun.com,youtube.com#@%#(function(){'use strict';function e(e){e.stopPropagation()}function t(e){e.removeAttribute('oncontextmenu'),e.removeAttribute('oncopy'),e.removeAttribute('onselectstart'),e.removeAttribute('unselectable'),e.style.userSelect='auto',e.style.webkitUserSelect='auto',e.style.MozUserSelect='auto',e.style.msUserSelect='auto'}document.addEventListener('contextmenu',e,!0),document.querySelectorAll('*').forEach(function(e){t(e)}),new MutationObserver(function(e){e.forEach(function(e){e.addedNodes.forEach(function(e){1===e.nodeType&&t(e)})})}).observe(document,{childList:!0,subtree:!0}),document.addEventListener('copy',function(e){e.stopPropagation();const t=document.getSelection();if(t.rangeCount){const o=t.toString().trim();e.clipboardData.setData('text/plain',o),e.preventDefault()}},!0)})();
-babechat.ai##.fixed.pointer-events-none:style(z-index:1!important; opacity:0.8!important;)
-babechat.ai#$#.sm\:min-h-56.w-full.min-h-48 {pointer-events:none!important; min-height:10px!important; height:90px!important;}
-reddit.com##.text-neutral-content:style(height:auto!important; max-height:none!important;)
-hitomi.la#$##mobileImages {width:100%!important; max-width:100%!important; height:auto!important;}
-[$url=fmkorea.com/freedeal]#@#li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
-[$url=fmkorea.com/hotdeal]#@#li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
-health.chosun.com##.sub_Banner
-@@$stealth=useragent,domain=chosun.com|www.daum.net|www.naver.com|www.youtube.com
-m.ddaily.co.kr##div.h25
-hankyung.com##.article-promotion
-||sakuraherbs*.com^$all
-daedamo.com##.new_top_banner_ad
-/ad.php^$all
-||molln.in^$all
-||rtvi.org^$all
-mlbpark.donga.com#@$#div[id^="SmartPhone_"][id$="_today"] .lists > li::before { padding-top: 0px !important; border-bottom: none !important; }
-mlbpark.donga.*##li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
-mlbpark.donga.com##.left_cont > div[style^="width:"]
-t.hi098123.com#%#//scriptlet('prevent-fetch', 'ep1.adtrafficquality.google')
-@@$generichide,domain=namu.wiki|11st.co.kr|t.hi098123.com
-biz.newdaily.co.kr##.par > .clearfix
-m.hoyolab.com##.guide-download-drawer
-
+fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
 
 
 ! 신라면세점, playpass
