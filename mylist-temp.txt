@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.290+2x
+! Version: 1.290+2y
 ! Description: yas
 
 
@@ -8,8 +8,12 @@ arca.live#%#//scriptlet('remove-class', 'external')
 [$url=arca.live/b/]#%#(function(){function a(b=document){const c=b.querySelectorAll('a[href*="unsafelink.com/"]');for(const d of c)d.href=d.href.replace('https://unsafelink.com/','').replace(/^http:\/\//,'https://');}function b(){const c=new MutationObserver(function(d){d.forEach(e=>{if(e.type==='childList')e.addedNodes.forEach(f=>{f.nodeType===Node.ELEMENT_NODE&&a(f);});})});c.observe(document.body,{childList:true,subtree:true});a();}document.readyState==='loading'?document.addEventListener('DOMContentLoaded',b):b();})();
 @@||connect.facebook.net^$script,domain=mt.co.kr,badfilter
 mlbpark.donga.com##.coupang_cont
-m.fmkorea.com##li.politics_best.li_best2_politics1.li_best2_hotdeal0.li_best2_pop1.li
+fmkorea.com##li.politics_best.li_best2_politics1.li_best2_hotdeal0.li_best2_pop1.li
 @@||nlog.shinhan.com^
+mlbpark.donga.*#@#ul.sub_lists_today.lists:nth-of-type(1) > li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
+mlbpark.donga.com###SmartPhone_mlbtown_today > div > ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
+instiz.net##.hot_under
+
 
 
 ! 신라면세점, PLAYPASS, lover937.net, hgtv30.com, t.hi098123.com
