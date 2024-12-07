@@ -1,39 +1,10 @@
 ! Title: mylist-temp
-! Version: 1.290+4
+! Version: 1.291+0
 ! Description: yas
 
 
-fmkorea.com##li:has-text(/LoL|페이커|상 혁|롤드컵|경기움짤|상혁|T1|티원/)
-arca.live#%#//scriptlet('remove-class', 'external')
-[$url=arca.live/b/]#%#(function(){function a(b=document){const c=b.querySelectorAll('a[href*="unsafelink.com/"]');for(const d of c)d.href=d.href.replace('https://unsafelink.com/','').replace(/^http:\/\//,'https://');}function b(){const c=new MutationObserver(function(d){d.forEach(e=>{if(e.type==='childList')e.addedNodes.forEach(f=>{f.nodeType===Node.ELEMENT_NODE&&a(f);});})});c.observe(document.body,{childList:true,subtree:true});a();}document.readyState==='loading'?document.addEventListener('DOMContentLoaded',b):b();})();
-@@||connect.facebook.net^$script,domain=mt.co.kr,badfilter
-mlbpark.donga.com##.coupang_cont
-fmkorea.com##li.politics_best.li_best2_politics1.li_best2_hotdeal0.li_best2_pop1.li
-@@||nlog.shinhan.com^
-mlbpark.donga.*#@#ul.sub_lists_today.lists:nth-of-type(1) > li.items:nth-of-type(6):style(margin-top:-291px!important; z-index:-1!important;)
-mlbpark.donga.com##ul.sub_lists_today.lists > li.items:nth-of-type(6)::before
-instiz.net##.hot_under
-@@||arca.live^$extension="Immersive Translate - Translate Web & PDF"
-@@||m.youtube.com^$extension="Immersive Translate - Translate Web & PDF",badfilter
-algumon.com##.mobile.post-min-height-100.a-post-detail-bottom
-@@||namu.wiki^$stealth=useragent
-namu.wiki,~en.namu.wiki,~board.namu.wiki##[class]:has([src="//arca.live/external/callad"]):not(*:has([id]))
-||*.bet/$all
-page.kakao.com##.min-h-160pxr.mt-16pxr.mx-11pxr.bg-transparent.overflow-hidden.justify-center.flex
-page.kakao.com##.bg-bg-b-20.border-bg-b-10.border-solid.border-t-\[3px\].min-h-270pxr.mb-56pxr
-page.kakao.com##div.z-10.relative > .mx-11pxr
-page.kakao.com##.bg-sp-da-bg.rounded-8pxr.overflow-hidden.justify-center.flex
-page.kakao.com##.opacity-0.bg-bg-a-10.w-full.h-full.top-0.left-0.absolute.pointer-events-none
-page.kakao.com##.bg-sp-bg-first.w-full.h-full.left-0.top-0.absolute
-toomics.com##img[alt="투믹스 웹사이트에서 게시된 모든 컨텐츠들은 저작권 법에 의거 보호 받고 있습니다."]
-toptoon.com##.plusapp_mo
-m.toomics.com##.viewer__top-menu > li > [href^="javascript:;"]
-web.joongna.com#@#a[rel*="sponsored"]
-web.joongna.com##.min-\[1600px\]\:max-w-\[1280px\].max-w-\[1024px\].box-content.\32 xl\:px-16.md\:px-8.px-4.mx-auto > div
-
-
-! Incorrect blocking: 신라면세점, PLAYPASS
-! Anti-adblock: lover937.net, hgtv30.com, t.hi098123.com
+! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
+! Anti-adblock: hgtv30.com, t.hi098123.com
 ! Anti-rightclick: lezhin.com, comico.kr, toptoon.com, bunjang.co.kr, 11toon, web.joongna.com
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
