@@ -1,6 +1,12 @@
 ! Title: mylist-temp
-! Version: 1.291+0
+! Version: 1.291+1
 ! Description: yas
+
+
+||beta.aun.kr^$all
+ppomppu.co.kr###dumptext1
+ppomppu.co.kr##[id^='player']:style(position:static!important;)
+ppomppu.co.kr#@%#(()=>{const d=e=>{if(!e.href||!e.href.includes('s.ppomppu.co.kr'))return;try{const u=new URL(e.href),p=new URLSearchParams(u.search),t=p.get('target');if(!t)return;if(p.get('encode')==='on'){const m=document.createElement('textarea');m.innerHTML=atob(decodeURIComponent(t));e.href=m.innerText}else e.href=t}catch{}};const o=new MutationObserver(m=>{m.forEach(t=>{t.addedNodes.forEach(n=>{n.nodeName==='A'&&d(n);n.getElementsByTagName&&Array.from(n.getElementsByTagName('a')).forEach(d)})})});document.addEventListener('DOMContentLoaded',()=>{Array.from(document.getElementsByTagName('a')).forEach(d);o.observe(document.body,{childList:!0,subtree:!0})})})();
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
