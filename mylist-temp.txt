@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.291+1
+! Version: 1.291+2
 ! Description: yas
 
 
@@ -7,6 +7,17 @@
 ppomppu.co.kr###dumptext1
 ppomppu.co.kr##[id^='player']:style(position:static!important;)
 ppomppu.co.kr#@%#(()=>{const d=e=>{if(!e.href||!e.href.includes('s.ppomppu.co.kr'))return;try{const u=new URL(e.href),p=new URLSearchParams(u.search),t=p.get('target');if(!t)return;if(p.get('encode')==='on'){const m=document.createElement('textarea');m.innerHTML=atob(decodeURIComponent(t));e.href=m.innerText}else e.href=t}catch{}};const o=new MutationObserver(m=>{m.forEach(t=>{t.addedNodes.forEach(n=>{n.nodeName==='A'&&d(n);n.getElementsByTagName&&Array.from(n.getElementsByTagName('a')).forEach(d)})})});document.addEventListener('DOMContentLoaded',()=>{Array.from(document.getElementsByTagName('a')).forEach(d);o.observe(document.body,{childList:!0,subtree:!0})})})();
+hygall.com##div:has(> .kakao_ad_area)
+apeaksoft.com##.usernotice_pop
+@@||*.top^$image
+linkkf.net##.head-placeholder
+[$url=yako*.*]###banner
+[$url=yatube*.*]###banner
+[$url=yatv*.*]###banner
+@@||yadongplay*.net^$stealth=referrer
+@@||hellocdn*.*^$stealth=referrer
+||bet1*.*^$all
+@@||ac-p*.namu.la^$stealth=referrer
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
