@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.291+2
+! Version: 1.291+3
 ! Description: yas
 
 
@@ -17,7 +17,14 @@ linkkf.net##.head-placeholder
 @@||yadongplay*.net^$stealth=referrer
 @@||hellocdn*.*^$stealth=referrer
 ||bet1*.*^$all
-@@||ac-p*.namu.la^$stealth=referrer
+rakuten-drive.com##.grecaptcha-badge
+m.dcinside.com##li.comment:has([id^='reple_dori'])
+hellot.net##hr.spc
+hellot.net##.subscribe_box
+hellot.net##.txt_art_inner_slide
+koreapas.com###foot:style(height:100px!important;)
+koreapas.com###adusene
+m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|만원받아가세요|뎨코|메스이키쉐프|사다새|민주노총|찢갈|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망|site.naver.com|link24|광.군|블.프|광,군|블,프|할,인|할.인|x.gd|캐,시|쿠,폰|추,천|상,품,권|씨,유|url.kr|GEN.G/)
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
@@ -25,3 +32,4 @@ linkkf.net##.head-placeholder
 ! Anti-rightclick: lezhin.com, comico.kr, toptoon.com, bunjang.co.kr, 11toon, web.joongna.com
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me/)
