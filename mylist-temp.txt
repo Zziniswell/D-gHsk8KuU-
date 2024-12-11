@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.291+4
+! Version: 1.291+5
 ! Description: yas
 
 
@@ -38,6 +38,11 @@ m.hub.zum.com##.css-1158o05
 m.hub.zum.com##.css-1gaoacg
 m.hub.zum.com##.css-c4y80m
 platum.kr##.ad-container
+kilho.net#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
+||refer.kilho.net/analytics^
+||wbze.de^$all
+accuweather.com###privacy-policy-banner
+my.nextdns.io##.modal-body.p-0 > .list-group-flush.list-group > div.list-group-item:has-text(/years ago|year ago/)
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
@@ -45,4 +50,5 @@ platum.kr##.ad-container
 ! Anti-rightclick: lezhin.com, comico.kr, toptoon.com, bunjang.co.kr, 11toon, web.joongna.com
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
-m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무/)
+m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|즉.석|페.이|페,이|상,품|상.품|토막/)
