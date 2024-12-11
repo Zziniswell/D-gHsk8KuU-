@@ -1,5 +1,5 @@
 ! Title: mylist-temp
-! Version: 1.291+5
+! Version: 1.291+6
 ! Description: yas
 
 
@@ -39,10 +39,11 @@ m.hub.zum.com##.css-1gaoacg
 m.hub.zum.com##.css-c4y80m
 platum.kr##.ad-container
 kilho.net#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
-||refer.kilho.net/analytics^
+||refer.kilho.net^
 ||wbze.de^$all
 accuweather.com###privacy-policy-banner
 my.nextdns.io##.modal-body.p-0 > .list-group-flush.list-group > div.list-group-item:has-text(/years ago|year ago/)
+||feednews.com^$app=com.opera.browser
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
