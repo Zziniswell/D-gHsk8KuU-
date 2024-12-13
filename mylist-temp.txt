@@ -1,58 +1,7 @@
 ! Title: mylist-temp
-! Version: 1.291+8
+! Version: 1.292+0
 ! Description: yas
 
-
-||beta.aun.kr^$all
-ppomppu.co.kr###dumptext1
-ppomppu.co.kr##[id^='player']:style(position:static!important;)
-ppomppu.co.kr#@%#(()=>{const d=e=>{if(!e.href||!e.href.includes('s.ppomppu.co.kr'))return;try{const u=new URL(e.href),p=new URLSearchParams(u.search),t=p.get('target');if(!t)return;if(p.get('encode')==='on'){const m=document.createElement('textarea');m.innerHTML=atob(decodeURIComponent(t));e.href=m.innerText}else e.href=t}catch{}};const o=new MutationObserver(m=>{m.forEach(t=>{t.addedNodes.forEach(n=>{n.nodeName==='A'&&d(n);n.getElementsByTagName&&Array.from(n.getElementsByTagName('a')).forEach(d)})})});document.addEventListener('DOMContentLoaded',()=>{Array.from(document.getElementsByTagName('a')).forEach(d);o.observe(document.body,{childList:!0,subtree:!0})})})();
-hygall.com##div:has(> .kakao_ad_area)
-apeaksoft.com##.usernotice_pop
-@@||*.top^$image
-linkkf.net##.head-placeholder
-[$url=yako*.*]###banner
-[$url=yatube*.*]###banner
-[$url=yatv*.*]###banner
-@@||yadongplay*.net^$stealth=referrer
-@@||hellocdn*.*^$stealth=referrer
-||bet1*.*^$all
-rakuten-drive.com##.grecaptcha-badge
-m.dcinside.com##li.comment:has([id^='reple_dori'])
-hellot.net##hr.spc
-hellot.net##.subscribe_box
-hellot.net##.txt_art_inner_slide
-koreapas.com###foot:style(height:100px!important;)
-koreapas.com###adusene
-m.dcinside.com##[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|리자이밍|itss|민주당원|룬재앙|거부함|만원받아가세요|뎨코|메스이키쉐프|사다새|민주노총|찢갈|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|도.망|site.naver.com|광.군|블.프|광,군|블,프|할,인|할.인|캐,시|쿠,폰|추,천|상,품,권|씨,유|GEN.G/)
-@@||isplus.*^$stealth=dpi
-m.ddaily.co.kr##div.h20
-ksam.co.kr##.d-sm-none.d-block.mt-10.mb-10.row
-etnews.com##.event
-joynews24.com##[src^="https://webmetic.net/"]
-##.news-share
-zeta-ai.io###portal-container:remove()
-m.ddaily.co.kr##.arl_011
-bunjang.co.kr##[class^='ProductExternalAdsstyle__Cotainer-sc-']
-m.hub.zum.com##.css-1158o05
-m.hub.zum.com##.css-1gaoacg
-m.hub.zum.com##.css-c4y80m
-platum.kr##.ad-container
-kilho.net#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
-||refer.kilho.net^
-||wbze.de^$all
-accuweather.com###privacy-policy-banner
-my.nextdns.io##.modal-body.p-0 > .list-group-flush.list-group > div.list-group-item:has-text(/years ago|year ago/)
-||feednews.com^$app=com.opera.browser
-#@#[class*='upport']:has-text(/구독|후원|기부/)
-hoyolab.com##.mihoyo-cookie-tips
-quasarzone.com##.best-official-news
-quasarzone.com##.new-official-news
-quasarzone.com##.new-partner-saleinfo-container
-/devtools-detector.js
-m.dcinside.com#@#[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북한은 정말로 가난할까|앱테크|추천인|deco|밍밍|거.부|리자이밍|bit.ly|itss|민주당원|룬재앙|거부함|투표.|만원받아가세요|뎨코|메스이키쉐프|오등분의사다새|민주노총|찢갈이|goo.su|투.표|상혁|상 혁|토토|젠지|슼갈|프로모션 코드|첫충|mini-url.net|코.드|추.천|도.망|site.naver.com|link24|광.군|블.프|광,군|블,프|할,인|할.인|x.gd/)
-ㅡ
-||dcinside.com/js/kakao.min.js^
 
 
 ! Incorrect blocking: 신라면세점, PLAYPASS, e-himart.co.kr
@@ -61,8 +10,8 @@ m.dcinside.com#@#[id^='comment_cnt_']:has-text(/투표함|믕|위잉위잉|북�
 @@||arca.live^$extension="Auto Simya"
 @@||dcinside.com$cookie=_ga
 ㅡ
-#%#//scriptlet('prevent-fetch','pagead2.googlesyndication.com')
-#%#//scriptlet('prevent-xhr','pagead2.googlesyndication.com')
+
 ㅡ
 m.dcinside.com##.gall-detail-lst > li:has-text(/메스이키|키작|상혁|상 혁|롤드컵|페이커|T1|젠지|키170|섹카오|토막|사다새|♿|즉정|만삐|g i f|BJ|했제|벗 방|했●제|했■제/)
-m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막/)
+m.dcinside.com##[id^='comment_cnt_']:has-text(/ual.kr|틱톡|틱,톡|틱.톡|dcinside.me|suri.li|테.무|테,무|♿|즉석당첨|즉,석|페.이|페,이|상,품|상.품|토막|샹품권|ㄱㅏ입|추쳔인/)
+! ##[id^='dimg']:upward(7):has-text(test)
